@@ -1,0 +1,11 @@
+node_modules/
+.env
+*.log
+.DS_Store
+
+# WhatsApp session files (contain credentials — never commit)
+auth/*
+!auth/.gitkeep
+
+# User database (contains password hashes)
+data/users.json

@@ -1,0 +1,22 @@
+{
+  "name": "botify-x",
+  "version": "1.0.0",
+  "description": "Botify X — production-ready WhatsApp bot built with Baileys, Express and OpenAI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "add-user": "node scripts/add-user.js",
+    "remove-user": "node scripts/remove-user.js",
+    "list-users": "node scripts/list-users.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "pino": "^9.5.0"
+  }
+}
